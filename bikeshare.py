@@ -1,7 +1,9 @@
+#import
 import time
 import pandas as pd
 import numpy as np
 
+#City_data (chicago,new york city,washington)
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
@@ -9,7 +11,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
 #greeting
 print('Hello! Let\'s explore some US bikeshare data!')
 
-
+#get_filters set
 def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
@@ -66,7 +68,7 @@ def load_data(city, month, day):
 
     return df
 
-
+#time_stats df
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
@@ -88,7 +90,7 @@ def time_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
 
-
+#station_stats df
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
@@ -108,6 +110,7 @@ def station_stats(df):
     print(f"The most frequent combination of start and end station is from {most_common_trip[0]} to {most_common_trip[1]}.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
+    #print
     print('-' * 40)
 
 
