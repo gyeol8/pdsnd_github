@@ -9,7 +9,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
 
 print('Hello! Let\'s explore some US bikeshare data!')
 
-
+#get_filters set
 def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
@@ -88,7 +88,7 @@ def time_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
 
-
+#station_stats df
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
