@@ -1,3 +1,4 @@
+#import
 import time
 import pandas as pd
 import numpy as np
@@ -108,6 +109,7 @@ def station_stats(df):
     print(f"The most frequent combination of start and end station is from {most_common_trip[0]} to {most_common_trip[1]}.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
+    #print
     print('-' * 40)
 
 
