@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+#City_data (chicago,new york city,washington)
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
@@ -65,7 +66,7 @@ def load_data(city, month, day):
 
     return df
 
-
+#time_stats df
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
