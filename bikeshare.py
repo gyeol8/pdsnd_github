@@ -6,6 +6,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+#greeting
 print('Hello! Let\'s explore some US bikeshare data!')
 
 
@@ -37,7 +38,7 @@ def get_filters():
     print('-' * 40)
     return city, month, day
 
-
+#load_data set
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
