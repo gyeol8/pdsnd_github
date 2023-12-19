@@ -2,6 +2,7 @@
 
 ### Date created
 2023년 12월 16일
+수정일자 2023년 12월 19일
 
 ### Project Title
 프로젝트: GitHub에 작업물 게시하기
